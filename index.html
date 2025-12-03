@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Windermere Joinery | Fire Door & Joinery Specialists</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Windermere Joinery are specialist fire door and joinery contractors, providing professional joinery services with a focus on safety and compliance." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['Bebas Neue', 'sans-serif'],
+            body: ['Poppins', 'system-ui', 'sans-serif'],
+          },
+          maxWidth: {
+            content: '1100px',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="m-0 bg-white text-neutral-900 font-body">
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full bg-black text-white z-50">
+    <div class="max-w-content mx-auto flex items-center justify-between px-6 py-4">
+      <div class="flex items-center gap-2" aria-label="Windermere Joinery">
+        <img src="images/logo.png" alt="logo" class="w-64 max-w-full">
+      </div>
+      <div class="text-right text-xs sm:text-sm leading-tight">
+        <a href="tel:+441234567890" class="block hover:underline">Tel: 01234 567 890</a>
+        <a href="mailto:info@windermerejoinery.co.uk" class="block hover:underline">info@windermerejoinery.co.uk</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative h-[77vh] min-h-[450px] flex items-center text-white px-6 overflow-hidden"
+    aria-labelledby="hero-title">
+    <!-- Grayscale image layer -->
+    <div class="absolute inset-0 bg-cover bg-center bg-fixed grayscale"
+      style="background-image: url('images/hero.png'); mix-blend-mode: luminosity;">
+    </div>
+
+    <!-- Your gradient overlay -->
+    <div class="absolute inset-0 bg-gradient-to-br from-black/65 to-black/35"></div>
+
+    <div class="relative max-w-content mx-auto pt-24 md:pt-0">
+      <!-- Your hero content stays the same -->
+      <div
+        class="inline-block font-heading text-xs tracking-[0.2em] uppercase px-3 py-1 rounded-full border border-white/70 mb-3">
+        Fire Door &amp; Joinery Specialists
+      </div>
+      <h1 id="hero-title" class="font-heading text-3xl md:text-4xl max-w-md mb-3 tracking-[0rem]">
+        Professional joinery with a focus on compliant fire doors.
+      </h1>
+      <p class="font-heading text-base md:text-lg max-w-xl mb-4">
+        Windermere Joinery delivers reliable, high-quality joinery services with specialist
+        expertise in certified fire door supply, installation, and maintenance.
+      </p>
+      <p class="text-xs md:text-sm max-w-md opacity-80">
+        Inspired by the craftsmanship associated with Windermere &mdash; operating outside the
+        Lake District to serve commercial and residential clients.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <main class="pb-12">
+    <!-- About section -->
+
+    <section class="w-full bg-neutral-100 py-12" aria-labelledby="about-heading">
+      <div class="max-w-content mx-auto">
+        <h2 id="about-heading" class="font-heading text-3xl tracking-[0em] uppercase mb-4">
+          <span class="">About Windermere Joinery</span>
+        </h2>
+
+        <p class="max-w-xl text-sm mb-4">
+          Windermere Joinery is an independent joinery contractor providing practical,
+          no-nonsense joinery services with a specialist focus on fire doors. We work with
+          contractors, landlords, and businesses who need dependable workmanship and clear
+          communication.
+        </p>
+
+        <div class="grid gap-5 md:grid-cols-[3fr_2fr] bg-white/50 rounded-lg p-6">
+          <div>
+            <p class="font-medium mb-2 text-sm">
+              We are not based in the Lake Windermere area — our name reflects the standard of
+              craftsmanship we aim for, not our postcode.
+            </p>
+            <p class="text-sm">
+              From straightforward joinery repairs to full fire-door replacement programmes,
+              our approach is simple: do the job properly, document it clearly, and leave the
+              site tidy.
+            </p>
+          </div>
+
+          <div>
+            <p class="text-sm mb-2">Typical clients include:</p>
+            <ul class="list-disc list-inside text-sm space-y-1">
+              <li>Property managers and letting agents</li>
+              <li>Commercial landlords and facilities teams</li>
+              <li>Care homes, HMOs, and managed accommodation</li>
+              <li>Homeowners needing reliable joinery support</li>
+            </ul>
+            <p class="text-[0.78rem] opacity-80 mt-3">
+              This single-page site acts as a holding page while our full website is being
+              developed. All details are current, and you can contact us directly using the
+              information below.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section -->
+
+    <section class="max-w-content mx-auto mb-12 mt-12" aria-labelledby="services-heading">
+      <h2 id="services-heading" class="font-heading text-xl tracking-[0.18em] uppercase mb-4">
+        <span class="border-b-2 border-black pb-1">Services</span>
+      </h2>
+
+      <p class="max-w-xl text-sm mb-4">
+        We cover general joinery, with a strong emphasis on compliant, well-installed fire doors.
+        Key services include:
+      </p>
+
+      <div class="bg-neutral-100 rounded-lg p-6">
+        <ul class="space-y-3 text-sm">
+
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-black-600 flex-shrink-0" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            Fire door supply, installation, and upgrade works
+          </li>
+
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-black-600 flex-shrink-0" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            Fire door inspections, adjustments, and remedial works
+          </li>
+
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-black-600 flex-shrink-0" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            Replacement of hinges, seals, closers, and ironmongery
+          </li>
+
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-black-600 flex-shrink-0" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            Bespoke internal doors, frames, and linings
+          </li>
+
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-black-600 flex-shrink-0" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            Skirting, architraves, and interior finish joinery
+          </li>
+
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-black-600 flex-shrink-0" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            Joinery repairs for rental and managed properties
+          </li>
+
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-black-600 flex-shrink-0" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+            </svg>
+            Small works and maintenance packages for landlords
+          </li>
+
+        </ul>
+
+        <p class="text-[0.8rem] opacity-80 mt-4">
+          Full documentation and photographic records can be provided where required for
+          compliance and audit purposes.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="max-w-content mx-auto" aria-labelledby="contact-heading">
+      <h2 id="contact-heading" class="font-heading text-3xl tracking-[0em] uppercase mb-4">
+        <span class="">Contact</span>
+      </h2>
+      <p class="max-w-xl text-sm mb-4">
+        For quotations, site visits, or to discuss ongoing maintenance, please use the contact
+        details below. If we miss your call, we will return it as soon as we are off the tools.
+      </p>
+
+      <div class="grid gap-4 bg-neutral-100 rounded-lg p-6 md:grid-cols-3">
+        <div class="text-sm">
+          <div class="text-sm uppercase tracking-normal opacity-70 mb-1">
+            Phone
+          </div>
+          <div>
+            <a href="tel:+441234567890" class="underline underline-offset-2">
+              01234 567 890
+            </a>
+          </div>
+        </div>
+        <div class="text-sm">
+          <div class="text-sm uppercase tracking-normal opacity-70 mb-1">
+            Email
+          </div>
+
+          <div>
+            <a href="mailto:info@windermerejoinery.co.uk" class="underline underline-offset-2">
+              info@windermerejoinery.co.uk
+            </a>
+          </div>
+        </div>
+        <div class="text-sm">
+          <div class="text-sm uppercase tracking-normal opacity-70 mb-1">
+            Working Area
+          </div>
+          <div>
+            Serving regional commercial and residential clients outside the Lake District.
+          </div>
+        </div>
+      </div>
+
+      <p class="text-[0.8rem] opacity-75 mt-3 max-w-xl">
+        If you need a basic summary for your records: Windermere Joinery &mdash; specialist fire
+        door and joinery contractor, operating outside the Windermere/Lake District area.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-neutral-900 text-white text-[0.78rem] px-6 py-4">
+    <div class="max-w-content mx-auto flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
+      <div>
+        &copy; <span id="year"></span> Windermere Joinery. All rights reserved.
+      </div>
+      <div class="opacity-70">
+        Holding page &mdash; full site coming soon.
+      </div>
+    </div>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+
+</html>
